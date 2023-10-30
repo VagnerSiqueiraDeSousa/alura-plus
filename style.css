@@ -175,3 +175,37 @@ color: var(--cinza-secundario);
     margin: 1em 0;
 }
 
+/*transformando a pagina em uma pagina responsiva*/
+
+@media screen and (max-width: 768px){
+    .container{
+        display: block;
+        background-image: none;
+    }
+
+    .container__imagem{
+        width: 50vw;
+    }
+
+    .container__caixa{
+        margin: 2em 2em;
+    }
+
+    .segudario{
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario__imagem{
+        width:50vw;
+    }
+
+    .dispositivo__lista{
+        display: block;
+    }
+
+    .rodape__lista{
+        display: block;
+    }
+
+}
