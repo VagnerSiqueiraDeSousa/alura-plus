@@ -200,6 +200,9 @@ color: var(--cinza-secundario);
         width:50vw;
     }
     
+    .descricao__texto{
+        text-align: center;
+    }
 
     .dispositivo__lista{
         display: block;
