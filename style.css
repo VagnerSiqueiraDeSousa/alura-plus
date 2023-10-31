@@ -177,7 +177,7 @@ color: var(--cinza-secundario);
 
 /*transformando a pagina em uma pagina responsiva*/
 
-@media (max-width:850px) and (max-width:1200px){
+@media screen and (max-width: 768px){
     .container{
         display: block;
         background-image: none;
@@ -196,16 +196,13 @@ color: var(--cinza-secundario);
         text-align: center;
     }
 
-    .secundario__imagem{
+    .secundario__img{
         width:50vw;
     }
-
-    .descricao__texto{
-        text-align: center;
-    }
+    
 
     .dispositivo__lista{
-        width: auto;
+        display: block;
     }
 
     .rodape__lista{
